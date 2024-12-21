@@ -1,0 +1,100 @@
+# Drug-awareness-site.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Against Drug Abuse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .donate {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .donate button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .donate button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Youth Against Drug Abuse</h1>
+        <p>Creating Awareness and Making a Difference</p>
+    </header>
+    <section>
+        <div class="content">
+            <h2>Why Drug Abuse is a Problem?</h2>
+            <p>
+                Drug abuse among youth is a growing concern worldwide. It affects not only the individual but also families and communities. 
+                Awareness and education are crucial to combat this epidemic.
+            </p>
+            <img src="https://via.placeholder.com/800x400" alt="Youth Awareness Campaign">
+            
+            <h2>Signs of Drug Abuse</h2>
+            <ul>
+                <li>Sudden changes in behavior</li>
+                <li>Decline in academic performance</li>
+                <li>Withdrawal from family and friends</li>
+                <li>Unexplained health issues</li>
+            </ul>
+
+            <h2>How You Can Help</h2>
+            <p>
+                Join us in spreading awareness. Participate in community programs, share knowledge, and encourage positive activities. 
+                Together, we can make a difference.
+            </p>
+            <img src="https://via.placeholder.com/800x400" alt="Community Support Image">
+            
+            <div class="donate">
+                <h3>Send Donations Here</h3>
+                <p>Support our mission by sending donations to the following TON crypto address:</p>
+                <code>UQBMYQ_RLm4-36V_Yjl5E8iL-oFP5RRXLZXIMrS5zJ53KFih</code>
+                <br><br>
+                <button onclick="copyAddress()">Copy Address</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function copyAddress() {
+            navigator.clipboard.writeText("UQBMYQ_RLm4-36V_Yjl5E8iL-oFP5RRXLZXIMrS5zJ53KFih");
+            alert("Address copied to clipboard!");
+        }
+    </script>
+</body>
+</html>
